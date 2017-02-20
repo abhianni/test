@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [MainSuite4]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test name="FreightCharges(failed)">
+  <test name="Courier Data(failed)">
     <classes>
-      <class name="src.suborderFreightCost">
+      <class name="src.CourierTrackDataCreation">
         <methods>
-          <include name="driverClose"/>
           <include name="setDriver"/>
-          <include name="freightCost"/>
+          <include name="forwardCourier"/>
+          <include name="Reverse"/>
+          <include name="NDR"/>
         </methods>
-      </class> <!-- src.suborderFreightCost -->
+      </class> <!-- src.CourierTrackDataCreation -->
     </classes>
-  </test> <!-- FreightCharges(failed) -->
+  </test> <!-- Courier Data(failed) -->
 </suite> <!-- Failed suite [MainSuite4] -->

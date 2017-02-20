@@ -3,16 +3,16 @@
 <suite preserve-order="true" name="MainSuite4" parallel="false" verbose ="2" thread-count="2">
 
 
-<listeners>
-      <listener class-name="org.uncommons.reportng.HTMLReporter">
+<!-- <listeners> -->
+<!--       <listener class-name="org.uncommons.reportng.HTMLReporter"> -->
          
-       <sysproperty key="org.uncommons.reportng.show-expected-exceptions" value="true"/>
-       <sysproperty key="org.uncommons.reportng.velocity-log" value="true"/>   
-       <sysproperty key="org.uncommons.reportng.escape-output" value="false" />    
-      </listener>
+<!--        <sysproperty key="org.uncommons.reportng.show-expected-exceptions" value="true"/> -->
+<!--        <sysproperty key="org.uncommons.reportng.velocity-log" value="true"/>    -->
+<!--        <sysproperty key="org.uncommons.reportng.escape-output" value="false" />     -->
+<!--       </listener> -->
     
 
-</listeners>
+<!-- </listeners> -->
 <test name="Courier Data" preserve-order="true">
   
     <classes>
